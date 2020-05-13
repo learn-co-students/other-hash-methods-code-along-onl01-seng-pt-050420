@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  sam=groceries.values.join(",")
-  pete=sam.split(',')
-  pete
+  groceries.values.flatten
  end

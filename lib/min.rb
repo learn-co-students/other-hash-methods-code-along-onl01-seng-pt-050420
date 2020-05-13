@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  sam=groceries.values.join(",")
-  pete=sam.split(',')
-  pete.min
+  groceries.values.flatten.min
   end
