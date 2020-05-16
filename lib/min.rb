@@ -9,5 +9,18 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+}
+letters = {a: 1, b: 2}
+ 
+letters.min
+alphabetical_order = {c: 100, d: 1}
+alphabetical_order.min
+groceries.values.flatten.min
+
+
 end
